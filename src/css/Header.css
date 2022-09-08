@@ -1,0 +1,45 @@
+#header {
+    width: 100%;
+    margin-top: 2.5vh;
+}
+
+.right {
+    margin-top: -1vh;
+    display: flex;
+    align-items: center;
+    width: 16vw;
+    justify-content: space-around;
+}
+
+#nine-dots {
+    color: rgb(95, 99, 103);
+    font-weight: 900;
+    margin-left: 15px;
+    /* margin-right: 10px; */
+}
+
+#profile-pic {
+    margin-left: 10px;
+    border-radius: 50%;
+    width: 30px;
+    border: 2px solid;
+    border-color: rgb(233,46,24) rgb(49,115,241) rgb(36,154,65) rgb(246,176,3);
+    padding: 2px;
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+    font-family: 'Roboto-Medium';
+}
+
+.header-link {
+    color: black;
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: local("Roboto-Medium"),
+      url("../fonts/Roboto-Medium.ttf") format("truetype");
+}

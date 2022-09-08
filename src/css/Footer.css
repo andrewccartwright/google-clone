@@ -1,0 +1,30 @@
+#footer {
+    height: 6vh;
+    width: 100vw;
+    bottom: 0;
+    line-height: 5vh;
+    position: fixed;
+    background-color: rgb(242,242,242);
+}
+
+.left {
+    margin-left: 2vw;
+}
+
+.right {
+    margin-right: 2vw;
+}
+
+.footer-link {
+    color: rgb(112,117,121);
+}
+
+#leaf-img {
+    width: 12px;
+}
+
+#center-link {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
