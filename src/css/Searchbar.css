@@ -1,9 +1,9 @@
 #google-logo {
-    height: 12vh;
-    margin-top: 22vh;
+    height: 92px;
+    margin-top: 180px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 100px;
+    padding-left: 75px;
 }
 
 #searchbar-container {
@@ -25,23 +25,28 @@
 #searchbar {
     border: none;
     height: 43px;
-    width: 36vw;
+    width: 35vw;
     outline-width: 0;
     line-height: 50px;
 }
 
 #search-icon {
     color: rgb(155,160,166);
-    margin-left: 10px;
+    margin-left: 15px;
     margin-right: 10px;
     font-size: 18px;
     font-weight: 900;
 }
 
+#mic-icon {
+    width: 13px;
+    margin-right: 18px;
+}
+
 #button-container {
     margin-left: auto;
     margin-right: auto;
-    width: 20vw;
+    width: fit-content;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -49,7 +54,9 @@
 }
 
 .btn {
-    margin-top: 3vh;
+    /* margin-top: 3vh; */
+    min-width: 130px;
+    margin: 4vh 10px;
     padding: 10px;
     border: none;
     border-radius: 5px;

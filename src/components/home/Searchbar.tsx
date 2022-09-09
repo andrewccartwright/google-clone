@@ -1,5 +1,6 @@
 import '../../css/Searchbar.css';
 import googleLogo from '../../images/google-logo.png';
+import micLogo from '../../images/google-mic.png';
 
 const Searchbar = (props: {}) => {
     return (
@@ -12,6 +13,7 @@ const Searchbar = (props: {}) => {
                 <div id='searchbar-container'>
                     <span><i id="search-icon" className="material-symbols-outlined">search</i></span>
                     <input id="searchbar" type="text" />
+                    <img id="mic-icon" src={micLogo} />
                 </div>
 
                 <div id='button-container'>
