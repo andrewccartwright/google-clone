@@ -1,9 +1,15 @@
 #header {
     width: 100vw;
     margin-top: 2.5vh;
+    position: fixed;
 }
 
-.right {
+.left-header {
+    margin-left: 2vw;
+}
+
+.right-header {
+    margin-right: 2vw;
     margin-top: -1vh;
     display: flex;
     align-items: center;
@@ -43,4 +49,38 @@ a, a:visited, a:hover, a:active {
     font-family: "Roboto-Medium";
     src: local("Roboto-Medium"),
       url("../fonts/Roboto-Medium.ttf") format("truetype");
+}
+
+@media (max-width: 700px) {
+    #header {
+        margin-top: 1vh;
+    }
+
+    a {
+        font-size: 8px;
+    }
+
+    #nine-dots {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    #profile-pic {
+        width: 15px;
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-right: 20vw;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 850px) {
+    #profile-pic {
+        margin-right: 15vw;
+    }
+}
+
+@media (min-width: 850px) and (max-width: 1000px) {
+    #profile-pic {
+        margin-right: 10vw;
+    }
 }

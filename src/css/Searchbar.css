@@ -1,9 +1,9 @@
 #google-logo {
     height: 92px;
-    margin-top: 180px;
+    margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 75px;
+    /* padding-left: 75px; */
 }
 
 #searchbar-container {

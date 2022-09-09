@@ -7,11 +7,11 @@
     background-color: rgb(242,242,242);
 }
 
-.left {
+.left-footer {
     margin-left: 2vw;
 }
 
-.right {
+.right-footer {
     margin-right: 2vw;
 }
 
@@ -24,8 +24,30 @@
 }
 
 #center-link {
-    padding-right: 130px;
+    /* padding-right: 130px; */
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
+}
+
+@media (max-width: 700px) {
+    #footer {
+        height: 8vh;
+        font-size: 8px;
+    }
+
+    #center-link {
+        /* padding: 0; */
+        padding-top: 3vh;
+    }
+
+    .left-footer, .right-footer {
+        bottom: 0;
+    }
+}
+
+@media (max-width: 350px) {
+    #footer {
+        display: none;
+    }
 }
