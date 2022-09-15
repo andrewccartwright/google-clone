@@ -1,0 +1,39 @@
+#results-searchbar-container {
+    display: flex;
+    align-items: center;
+    margin-left: 11vw;
+    width: fit-content;
+    height: 45px;
+    border-radius: 25px;
+    margin-top: 3vh;
+    border: 1px solid rgb(218,220,224);
+}
+
+#results-searchbar-container:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+#results-searchbar {
+    font-size: 16px;
+    margin-left: 20px;
+    border: none;
+    height: 43px;
+    width: 41vw;
+    min-width: 400px;
+    outline-width: 0;
+    line-height: 50px;
+}
+
+#results-search-icon {
+    color: rgb(66,133,244);
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+#results-mic-icon {
+    width: 15px;
+    margin-right: 10px;
+}

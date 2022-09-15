@@ -48,7 +48,7 @@ a, a:visited, a:hover, a:active {
 @font-face {
     font-family: "Roboto-Medium";
     src: local("Roboto-Medium"),
-      url("../fonts/Roboto-Medium.ttf") format("truetype");
+      url("../../fonts/Roboto-Medium.ttf") format("truetype");
 }
 
 @media (max-width: 700px) {
@@ -56,7 +56,7 @@ a, a:visited, a:hover, a:active {
         margin-top: 1vh;
     }
 
-    a {
+    .header-link {
         font-size: 8px;
     }
 

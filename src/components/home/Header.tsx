@@ -1,4 +1,4 @@
-import '../../css/Header.css';
+import '../../css/home/Header.css';
 import profilePic from '../../images/profile-pic.png';
 
 const Header = (props: {}) => {

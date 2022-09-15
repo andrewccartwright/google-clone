@@ -1,4 +1,4 @@
-import '../../css/Footer.css';
+import '../../css/home/Footer.css';
 import leaf from '../../images/leaf.png';
 
 const Footer = (props: {}) => {

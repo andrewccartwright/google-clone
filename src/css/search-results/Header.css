@@ -1,0 +1,16 @@
+#search-logo-container {
+    float:left;
+}
+
+#search-google-logo {
+    margin-top: 13px;
+    margin-left: 25px;
+    width: 92px;
+}
+
+#search-header {
+    height: 13vh;
+    min-height: 100px;
+    width: 100vw;
+    border-bottom: 1px solid rgb(235,235,235);
+}
